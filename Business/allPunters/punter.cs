@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace SwimmersRace.Business.allPunters
 {
-    class Punter
+    public class Punter
     {
         public string PunterName { get; set; }
         public string Swimmer { get; set; }

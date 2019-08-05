@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SwimmersRace.Business.allPunters
 {
-    class Zeph : Punter
+    public class Zeph : Punter
     {
         //this runs first
         public Zeph()

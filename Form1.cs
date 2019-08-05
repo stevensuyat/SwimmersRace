@@ -27,7 +27,7 @@ namespace SwimmersRace
 
         #region Load Swimmers and Punters
 
-        private void LoadSwimmers()
+        public void LoadSwimmers()
         {
             Swimmer[0] = new Swimmer { Length = 0, myPB = pbDuck, Name = "Duck" };
             //assigns image to picture box
